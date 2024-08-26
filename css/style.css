@@ -1,0 +1,76 @@
+/* Search Bar */
+.search-bar {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Formulir Saran */
+.suggestion-section form {
+  margin-top: 20px;
+}
+
+.suggestion-section .form-control {
+  border-radius: 8px; /* Rounded corners for form inputs */
+  border: 1px solid #ced4da; /* Light border color */
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); /* Subtle inner shadow */
+  transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+.suggestion-section .form-control:focus {
+  border-color: #28a745; /* Green border on focus */
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25); /* Green focus ring */
+}
+
+/* Button Styles */
+.suggestion-section .btn-success {
+  background-color: #28a745; /* Calm green background */
+  border: none; /* Remove default border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 10px 20px; /* Padding for button */
+  font-size: 1rem; /* Font size for button text */
+  transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transitions */
+}
+
+.suggestion-section .btn-success:hover {
+  background-color: #218838; /* Darker green on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow on hover */
+}
+
+.suggestion-section .btn-success:focus {
+  outline: none; /* Remove default outline */
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5); /* Green focus ring */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 576px) {
+  .faq-header h1 {
+    font-size: 1.75rem;
+  }
+
+  .faq-header p {
+    font-size: 0.9rem;
+  }
+
+  .accordion-button {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  .accordion-body {
+    font-size: 0.8rem;
+    padding: 12px;
+  }
+
+  .search-bar input {
+    font-size: 0.9rem;
+  }
+
+  .suggestion-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .suggestion-section .btn-success {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+}
